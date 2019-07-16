@@ -17,7 +17,7 @@ describe User do
   it 'não é válido quando o primeiro nome é nulo ' do
     user = User.new(firstname: nil)
     user.valid?
-    expect(user.errors[:firstname]).to include("can't be blank")
+    expect(user.errors[:firstname]).not_to include("can't be blank")
   end
 
   it "é invalido caso já exista um e-mail igual" do
