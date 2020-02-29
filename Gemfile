@@ -5,7 +5,7 @@ ruby '2.5.1'
 
 gem 'rspec-rails', '~> 3.5.0.beta'
 
-gem 'rake', '< 11.0'
+gem 'rake', '< 13.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0.rc1'
